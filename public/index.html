@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rrival — Premium Men's Wear</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="siteHeader">
+  <div class="utility">
+    <div class="utilityLeft"><span>PREMIUM MEN'S WEAR</span><i>/</i><span>STYLE BUILT DIFFERENT</span></div>
+    <div class="utilityRight"><a href="#contact">Track Order</a><a href="#account">Login / Register</a><button onclick="openCart()" class="bagBtn">Bag <b id="cartCount">0</b></button></div>
+  </div>
+  <div class="navBar">
+    <a class="brand" href="#home"><img id="brandLogo" src="/assets/rrival-logo.png" alt="Rrival"></a>
+    <nav><a class="active" href="#home">Home</a><a href="#shop">Shop</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+    <div class="search"><span>⌕</span><input id="search" placeholder="Search products..." oninput="loadProducts()"></div>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="heroOverlay"></div>
+  <div class="heroContent">
+    <div class="eyebrow">NEW COLLECTION <span></span></div>
+    <h1>WEAR YOUR<br><em>IDENTITY</em></h1>
+    <p id="tagline">Rrival is more than a clothing brand. Designed for men who set the trend.</p>
+    <button class="goldBtn" onclick="document.getElementById('shop').scrollIntoView({behavior:'smooth'})">SHOP NOW <b>→</b></button>
+  </div>
+  <div class="heroSide"><img src="/assets/rrival-circle-logo.png" alt="Rrival logo"></div>
+</section>
+
+<section class="benefits">
+  <div><strong>♧</strong><span><b>Fast &amp; Secure Delivery</b><small>Across the country</small></span></div>
+  <div><strong>◇</strong><span><b>Premium Quality</b><small>Only the best for you</small></span></div>
+  <div><strong>♧</strong><span><b>24/7 Support</b><small>We're here to help</small></span></div>
+  <div><strong>▣</strong><span><b>Multiple Payment Options</b><small>Cash on Delivery &amp; Online</small></span></div>
+</section>
+
+<section class="collection" id="shop">
+  <div class="collectionIntro">
+    <div class="eyebrow">MEN'S FASHION</div>
+    <h2>FEATURED<br><em>COLLECTION</em></h2>
+    <p>Discover our handpicked selection of premium men's wear. Crafted for comfort. Designed for confidence.</p>
+    <button class="outlineBtn" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">EXPLORE ALL <b>→</b></button>
+    <div class="sliderBtns"><button>←</button><button>→</button></div>
+  </div>
+  <div class="productArea">
+    <div class="collectionHead"><div></div><span>VIEW ALL <b>→</b></span></div>
+    <div id="products" class="grid"></div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="aboutImage left"><img src="/assets/about-rival-left.jpg" alt="Rrival menswear"></div>
+  <div class="aboutCopy"><div class="eyebrow">ABOUT RRIVAL</div><h2>More than <em>clothing.</em></h2><p id="aboutText">Rrival is a modern men's fashion brand built for those who value style, quality and individuality.</p><button class="outlineBtn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">OUR STORY <b>→</b></button></div>
+  <div class="aboutSocial"><div class="eyebrow">CONNECT</div><div class="socials"><a id="ig" aria-label="Instagram" target="_blank" rel="noopener"><span>◎</span></a><a id="fb" aria-label="Facebook" target="_blank" rel="noopener"><span>f</span></a><a id="tt" aria-label="TikTok" target="_blank" rel="noopener"><span>♪</span></a><a id="wa" aria-label="WhatsApp" target="_blank" rel="noopener"><span>◔</span></a></div></div>
+  <div class="aboutImage right"><img src="/assets/about-rival-right.jpg" alt="Rrival collection"></div>
+</section>
+
+<section class="contact" id="contact"><div><div class="eyebrow">NEED ASSISTANCE?</div><h2>Talk to <em>Rrival.</em></h2><p>Ask our store assistant about products, delivery, payment or orders.</p></div><button class="outlineBtn" onclick="toggleChat()">OPEN ASSISTANT →</button></section>
+</main>
+
+<footer><a class="footerBrand" href="#home"><img src="/assets/rrival-logo.png" alt="Rrival"></a><span>© 2026 Rrival</span><span>Premium Men's Wear</span></footer>
+
+<div id="cart" class="overlay"><div class="drawer"><button class="close" onclick="closeCart()">×</button><div class="eyebrow">YOUR BAG</div><h2>Selected pieces</h2><div id="cartItems"></div><div class="cartBottom"><div><span>Total</span><b id="cartTotal">৳0</b></div><button class="goldBtn" onclick="checkout()">CHECKOUT →</button></div></div></div>
+<div id="checkout" class="overlay"><div class="modal"><button class="close" onclick="closeCheckout()">×</button><div class="eyebrow">SECURE CHECKOUT</div><h2>Complete your order</h2><input id="cName" placeholder="Full name"><input id="cPhone" placeholder="Phone number"><textarea id="cAddress" placeholder="Delivery address"></textarea><button class="goldBtn" onclick="placeOrder()">PLACE ORDER →</button><div id="orderResult"></div></div></div>
+
+<div class="floaters"><button class="agentFab" onclick="openAgents()" aria-label="Agent Contact"><span class="agentDot"></span><span>♙</span></button><button class="chatFab" onclick="toggleChat()" aria-label="Rrival Assistant">✦</button></div>
+<div id="agents" class="miniPanel"><button class="close" onclick="closeAgents()">×</button><div class="eyebrow">SUPPORT</div><h3>Contact an agent</h3><div id="agentList"></div></div>
+<div id="chat" class="chat"><div class="chatHead"><div class="botIcon">✦</div><div><b>RRIVAL ASSISTANT</b><small>Store concierge · Online</small></div><button onclick="toggleChat()">×</button></div><div id="msgs" class="msgs"></div><div class="quick"><button onclick="setChatLang('en')" id="langEN">English</button><button onclick="setChatLang('bn')" id="langBN">বাংলা</button><button onclick="quick('Show me the collection')">Collection</button><button onclick="quick('What is the delivery time?')">Delivery</button><button onclick="quick('How can I order?')">Order</button></div><div class="chatInput"><input id="chatText" placeholder="Ask about Rrival..." onkeydown="if(event.key==='Enter')sendChat()"><button onclick="sendChat()">➤</button></div></div>
+<script src="/app.js"></script>
+</body></html>
