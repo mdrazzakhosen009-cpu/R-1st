@@ -1,0 +1,319 @@
+{
+  "settings": {
+    "brand": "R TEX BD",
+    "tagline": "Women’s Three-Piece Collection",
+    "whatsapp": "01629380347",
+    "logo": "/assets/logo.jpg",
+    "heroImage": "/assets/hero.jpg",
+    "heroTitle": "Elegance in Every Thread",
+    "heroSubtitle": "Discover timeless three-piece collections crafted for the modern woman — refined fabrics, graceful details and effortless style.",
+    "heroButton": "Shop Now",
+    "announcement": "PREMIUM WOMEN’S THREE-PIECE COLLECTION • ALL OVER BANGLADESH DELIVERY",
+    "aboutTitle": "Made for your signature style.",
+    "aboutText": "R TEX BD brings a refined boutique experience to women’s three-piece fashion with curated colors, elegant silhouettes and a premium finishing standard.",
+    "aboutImage": "/assets/about.jpg",
+    "promoImage": "/assets/promo.jpg",
+    "promoTitle": "Luxury Three Piece Collection",
+    "promoText": "Traditional grace • premium fabric • unmatched comfort",
+    "phone": "01629380347",
+    "email": "hello@rtexbd.com",
+    "address": "Bangladesh",
+    "facebook": "#",
+    "instagram": "#",
+    "tiktok": "#",
+    "seoTitle": "R TEX BD — Premium Women’s Three-Piece Collection",
+    "seoDescription": "Premium women’s three-piece collection from R TEX BD."
+  },
+  "sections": {
+    "hero": true,
+    "categories": true,
+    "products": true,
+    "promo": true,
+    "about": true,
+    "reviews": true,
+    "faq": true,
+    "cta": true
+  },
+  "categories": [
+    {
+      "id": "c1",
+      "name": "Cotton",
+      "image": "/assets/categories/cat-1.jpg",
+      "active": true
+    },
+    {
+      "id": "c2",
+      "name": "Georgette",
+      "image": "/assets/categories/cat-2.jpg",
+      "active": true
+    },
+    {
+      "id": "c3",
+      "name": "Silk",
+      "image": "/assets/categories/cat-3.jpg",
+      "active": true
+    },
+    {
+      "id": "c4",
+      "name": "Lawn",
+      "image": "/assets/categories/cat-4.jpg",
+      "active": true
+    },
+    {
+      "id": "c5",
+      "name": "Chiffon",
+      "image": "/assets/categories/cat-5.jpg",
+      "active": true
+    },
+    {
+      "id": "c6",
+      "name": "Embroidered",
+      "image": "/assets/categories/cat-6.jpg",
+      "active": true
+    },
+    {
+      "id": "c7",
+      "name": "Festive",
+      "image": "/assets/categories/cat-7.jpg",
+      "active": true
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "Royal Bloom",
+      "price": 2450,
+      "oldPrice": 3060,
+      "badge": "-20%",
+      "image": "/assets/products/p-1.jpg",
+      "category": "Embroidered",
+      "colors": [
+        "Rose",
+        "Ivory",
+        "Wine"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "stock": 16,
+      "description": "Elegant premium three-piece with refined embroidery and a graceful drape."
+    },
+    {
+      "id": "p2",
+      "name": "Pastel Grace",
+      "price": 2280,
+      "oldPrice": 2660,
+      "badge": "NEW",
+      "image": "/assets/products/p-2.jpg",
+      "category": "Georgette",
+      "colors": [
+        "Blush",
+        "Ivory",
+        "Mauve"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 12,
+      "description": "Soft pastel three-piece designed for effortless premium styling."
+    },
+    {
+      "id": "p3",
+      "name": "Mehfil",
+      "price": 2650,
+      "oldPrice": 2980,
+      "badge": "HOT",
+      "image": "/assets/products/p-3.jpg",
+      "category": "Silk",
+      "colors": [
+        "Olive",
+        "Black",
+        "Maroon"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "stock": 9,
+      "description": "A rich occasion-ready three-piece with luxurious texture and detail."
+    },
+    {
+      "id": "p4",
+      "name": "Sundori",
+      "price": 2390,
+      "oldPrice": 2780,
+      "badge": "-15%",
+      "image": "/assets/products/p-4.jpg",
+      "category": "Lawn",
+      "colors": [
+        "Sky",
+        "Cream",
+        "Pink"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 19,
+      "description": "Lightweight premium lawn set for polished everyday styling."
+    },
+    {
+      "id": "p5",
+      "name": "Chandni",
+      "price": 2780,
+      "oldPrice": 3320,
+      "badge": "NEW",
+      "image": "/assets/products/p-5.jpg",
+      "category": "Chiffon",
+      "colors": [
+        "Wine",
+        "Rose",
+        "Cream"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "stock": 8,
+      "description": "Elegant chiffon-inspired set with sophisticated finishing."
+    },
+    {
+      "id": "p6",
+      "name": "Noor",
+      "price": 2420,
+      "oldPrice": 2980,
+      "badge": "-20%",
+      "image": "/assets/products/p-6.jpg",
+      "category": "Festive",
+      "colors": [
+        "Mustard",
+        "Gold",
+        "Ivory"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 14,
+      "description": "A festive statement three-piece with graceful colors and detailing."
+    },
+    {
+      "id": "p7",
+      "name": "Meghla Rose",
+      "price": 2590,
+      "oldPrice": 2890,
+      "badge": "LIMITED",
+      "image": "/assets/products/p-7.jpg",
+      "category": "Cotton",
+      "colors": [
+        "Rose",
+        "Blush"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 10,
+      "description": "A sophisticated floral palette designed for easy elegance."
+    },
+    {
+      "id": "p8",
+      "name": "Madhobi",
+      "price": 2990,
+      "oldPrice": 3490,
+      "badge": "BESTSELLER",
+      "image": "/assets/products/p-8.jpg",
+      "category": "Silk",
+      "colors": [
+        "Mauve",
+        "Deep Rose"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "stock": 6,
+      "description": "Premium occasionwear with a rich palette and statement finish."
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "name": "Ayesha Rahman",
+      "location": "Dhaka",
+      "rating": 5,
+      "text": "Quality is amazing and the finishing feels genuinely premium.",
+      "image": "/assets/reviews-1.jpg"
+    },
+    {
+      "id": "r2",
+      "name": "Nusrat Jahan",
+      "location": "Chattogram",
+      "rating": 5,
+      "text": "Beautiful dress, quick replies and smooth delivery.",
+      "image": "/assets/reviews-2.jpg"
+    },
+    {
+      "id": "r3",
+      "name": "Tanjila Akter",
+      "location": "Rajshahi",
+      "rating": 5,
+      "text": "The fabric is comfortable and the color looked beautiful.",
+      "image": "/assets/reviews-3.jpg"
+    },
+    {
+      "id": "r4",
+      "name": "Farhana Islam",
+      "location": "Sylhet",
+      "rating": 5,
+      "text": "Exactly the refined look I wanted for a special occasion.",
+      "image": "/assets/reviews-4.jpg"
+    },
+    {
+      "id": "r5",
+      "name": "Mimi Chowdhury",
+      "location": "Khulna",
+      "rating": 5,
+      "text": "A very easy shopping experience from product selection to order.",
+      "image": "/assets/reviews-5.jpg"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How can I order?",
+      "a": "Open a product, choose size and color, then Add to Cart or Order Now and complete checkout."
+    },
+    {
+      "q": "What sizes are available?",
+      "a": "Each product shows its own available sizes and stock."
+    },
+    {
+      "q": "Can I choose a color?",
+      "a": "Yes. Product details show every color configured by the admin."
+    },
+    {
+      "q": "Do you deliver across Bangladesh?",
+      "a": "Yes. R TEX BD is configured for nationwide delivery."
+    }
+  ],
+  "orders": []
+}
