@@ -1,0 +1,61 @@
+{
+  "settings": {
+    "brand": "R TEX BD",
+    "tagline": "Women's Three-Piece Collection",
+    "whatsapp": "01629380347",
+    "logo": "/assets/logo.jpg",
+    "heroImage": "/assets/hero.jpg",
+    "heroTitle": "Elegance in Every Thread",
+    "heroSubtitle": "Discover timeless beauty with our exclusive three-piece collection. Designed for the modern woman, crafted with tradition.",
+    "heroButton": "Shop Now →",
+    "announcement": "",
+    "aboutTitle": "About R TEX BD",
+    "aboutText": "Premium women's three-piece fashion, curated for modern elegance.",
+    "aboutImage": "/assets/about.jpg",
+    "promoImage": "/assets/promo.jpg",
+    "promoTitle": "Luxury Three Piece Collection",
+    "promoText": "Traditional Design • Premium Fabric • Unmatched Comfort",
+    "phone": "01629380347",
+    "email": "hello@rtexbd.com",
+    "address": "Bangladesh",
+    "facebook": "#",
+    "instagram": "#",
+    "tiktok": "#",
+    "youtube": "#",
+    "seoTitle": "R TEX BD — Premium Women's Three-Piece Collection",
+    "seoDescription": "R TEX BD premium women's three-piece collection."
+  },
+  "sections": {"hero":true,"categories":true,"products":true,"promo":true,"about":false,"reviews":true,"faq":false,"cta":false},
+  "categories": [
+    {"id":"c1","name":"Cotton","image":"/assets/categories/cat-1.jpg","active":true},
+    {"id":"c2","name":"Georgette","image":"/assets/categories/cat-2.jpg","active":true},
+    {"id":"c3","name":"Silk","image":"/assets/categories/cat-3.jpg","active":true},
+    {"id":"c4","name":"Lawn","image":"/assets/categories/cat-4.jpg","active":true},
+    {"id":"c5","name":"Chiffon","image":"/assets/categories/cat-5.jpg","active":true},
+    {"id":"c6","name":"Embroidered","image":"/assets/categories/cat-6.jpg","active":true},
+    {"id":"c7","name":"Festive","image":"/assets/categories/cat-7.jpg","active":true},
+    {"id":"c8","name":"New Arrivals","image":"/assets/categories/cat-8.jpg","active":true}
+  ],
+  "products": [
+    {"id":"p1","name":"Royal Bloom","price":2450,"oldPrice":3160,"badge":"-20%","image":"/assets/products/p-1.jpg","category":"Embroidered","colors":["Purple","Rose","Ivory"],"sizes":["S","M","L","XL","XXL"],"stock":18,"description":"A regal purple three-piece inspired by the Royal Bloom look in the R TEX BD collection."},
+    {"id":"p2","name":"Pastel Grace","price":2280,"oldPrice":2860,"badge":"New","image":"/assets/products/p-2.jpg","category":"Georgette","colors":["Pink","Blush","Ivory"],"sizes":["S","M","L","XL"],"stock":24,"description":"A soft pastel pink georgette three-piece with graceful detailing and an elegant silhouette."},
+    {"id":"p3","name":"Mehfil","price":2650,"oldPrice":3290,"badge":"Hot","image":"/assets/products/p-3.jpg","category":"Silk","colors":["Green","Olive","Black"],"sizes":["M","L","XL","XXL"],"stock":14,"description":"A deep green silk three-piece with a rich festive mood and polished finishing."},
+    {"id":"p4","name":"Sundori","price":2390,"oldPrice":3060,"badge":"-15%","image":"/assets/products/p-4.jpg","category":"Lawn","colors":["Blue","Sky Blue","Cream"],"sizes":["S","M","L","XL"],"stock":21,"description":"A light blue lawn three-piece designed for a fresh, graceful everyday look."},
+    {"id":"p5","name":"Chandni","price":2780,"oldPrice":3490,"badge":"New","image":"/assets/products/p-5.jpg","category":"Chiffon","colors":["Maroon","Wine","Rose"],"sizes":["M","L","XL","XXL"],"stock":12,"description":"A sophisticated maroon chiffon three-piece with a rich evening-ready finish."},
+    {"id":"p6","name":"Noor","price":2420,"oldPrice":3000,"badge":"-20%","image":"/assets/products/p-6.jpg","category":"Festive","colors":["Mustard","Gold","Cream"],"sizes":["S","M","L","XL"],"stock":19,"description":"A warm mustard festive three-piece for celebrations, gatherings and statement styling."}
+  ],
+  "reviews": [
+    {"id":"r1","name":"Ayesha Rohman","location":"Dhaka","rating":5,"text":"Quality is amazing! Definitely buying again.","image":"/assets/reviews-1.jpg"},
+    {"id":"r2","name":"Nusrat Jahan","location":"Chattogram","rating":5,"text":"Beautiful dress and fast delivery.","image":"/assets/reviews-2.jpg"},
+    {"id":"r3","name":"Tanjila Akter","location":"Rajshahi","rating":5,"text":"Fabric is so soft and comfortable. Highly recommend!","image":"/assets/reviews-3.jpg"},
+    {"id":"r4","name":"Farhana Islam","location":"Sylhet","rating":5,"text":"Exactly as shown in the picture. Loved it!","image":"/assets/reviews-4.jpg"},
+    {"id":"r5","name":"Mimi Chowdhury","location":"Khulna","rating":5,"text":"Best online shopping experience ever.","image":"/assets/reviews-5.jpg"}
+  ],
+  "faq": [
+    {"q":"How can I order?","a":"Open a product, choose size and color, then Add to Cart or Order Now and complete checkout."},
+    {"q":"What sizes are available?","a":"Each product shows its available sizes and stock."},
+    {"q":"Can I choose a color?","a":"Yes. Product details show every configured color."},
+    {"q":"Do you deliver across Bangladesh?","a":"Yes. R TEX BD is configured for nationwide delivery."}
+  ],
+  "orders": []
+}
